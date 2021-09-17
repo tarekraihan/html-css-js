@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop Shadow</title>
+    <style>
+      .box {
+        width: 50%;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: black;
+        color: white;
+      }
+      #box1 {
+        box-shadow: 16px 13px rgb(0, 27, 102);
+      }
+      #box2 {
+        box-shadow: 6px 12px 4px 8px red;
+      }
+      #box3 {
+        box-shadow: 6px 12px 2px 2px blue, -6px -12px 2px 2px green;
+      }
+      blockquote {
+        width: 50%;
+        margin: 50px auto;
+        padding: 20px;
+        font-size: 24px;
+        box-shadow: inset 10px 5px 25px 5px black, 5px 5px 12px 2px black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1" class="box">BOX 1</div>
+    <div id="box2" class="box">BOX 2</div>
+    <div id="box3" class="box">BOX 3</div>
+
+    <blockquote>
+      <q>The key to success is to start before you're ready.</q>
+      <p>&mdash; Marie Forleo</p>
+    </blockquote>
+  </body>
+</html>
