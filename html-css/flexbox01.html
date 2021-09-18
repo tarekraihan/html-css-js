@@ -7,7 +7,7 @@
     <style>
       .parent {
         background-color: #00aaff;
-        justify-content: space-evenly;
+        justify-content: space-between;
         display: flex;
         align-items: center;
         height: 100vh;
@@ -16,19 +16,25 @@
       .child-one {
         background-color: rgb(116, 255, 116);
         width: 100px;
-        height: 100px;
+        height: 130px;
+        margin: 20px;
+        order: 1;
       }
 
       .child-two {
         background-color: rgb(248, 117, 117);
         width: 100px;
-        height: 100px;
+        height: 150px;
+        margin: 20px;
+        order: 0;
       }
 
       .child-three {
         background-color: rgb(255, 116, 232);
         width: 100px;
         height: 100px;
+        margin: 20px;
+        order: 2;
       }
     </style>
   </head>
