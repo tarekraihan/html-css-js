@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #444444;
+}
+p {
+  max-width: 600;
+}
+#container {
+  max-width: 1200px;
+  padding: 24px;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 60px;
+}
+
+.navigation {
+  flex-grow: 1;
+}
+.navigation--item {
+  text-decoration: none;
+  color: #bdbdbd;
+  margin-left: 24px;
+}
+
+.navigation--item:first-child {
+  margin-left: 0;
+}
